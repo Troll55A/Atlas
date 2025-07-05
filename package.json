@@ -17,7 +17,7 @@
   "scripts": {
     "doc": "node docs/swagger.js",
     "dev": "npm run doc && nodemon src/index.js",
-    "start": "npm run src/index.js",
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
